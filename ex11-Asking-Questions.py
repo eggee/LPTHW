@@ -1,3 +1,6 @@
+# NOTE: Notice that we put a , (comma) at the end of each print line. This is so that
+# print doesnt end the line with a new line character and go to the next line.
+
 print "How old are you?",
 age = raw_input()
 print "How tall are you?",
@@ -9,8 +12,3 @@ print "So, you're %r old, %r tall and %r heavy." % (
     age, height, weight)
 
 
-age = raw_input("How old are you?")
-height = raw_input("How tall are you?")
-weight = raw_input("How much do you weigh?")
-print "So, you're %r old, %r tall and %r heavy." % (
-    age, height, weight)
